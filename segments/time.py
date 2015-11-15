@@ -5,7 +5,7 @@ def add_time_segment():
         time = ' %* '
     else:
         import time
-        time = ' %s ' % time.strftime('%H:%M:%S')
+        time = ' %s ' % time.strftime('%H:%M')
 
     powerline.append(time, Color.HOSTNAME_FG, Color.HOSTNAME_BG)
 

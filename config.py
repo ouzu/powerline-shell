@@ -1,2 +1,2 @@
-SEGMENTS = ['time','virtual_env','username','ssh','path','read_only','git','jobs','root']
+SEGMENTS = ['time','virtual_env','hostname','username','path','git','jobs','root']
 THEME = 'solarized-dark'
